@@ -19,5 +19,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: newman run trello_project.postman_collection.json --global-var "trello_key=${{secrets.actions.TRELLO_API_KEY}}" --global-var "trello_token=${{secrets.actions.TRELLO_API_TOKEN}}"
+        run: newman run trello_project.postman_collection.json --global-var "key=e1410bf3f04b24c0f3f58554034f3c3c
+" --global-var "token=ATTA798e3ae06fb2a163adde7d74f017a19a0af06fb6e418112c024a44a66851c9549D41BE77
+"
 
